@@ -6,5 +6,5 @@
 - **About Us Page:** Which explains about the business and also gives information about wheel balancing and wheel alignment.
 - **Book Online Page:** This page enables customers to either directly order tyres to be delivered or picked up at the store, which will save them a tonne of time, or reserve a slot online using the form that is linked. This form is a google form displayed directly to the website using iframe element in HTML.
 <br>
-<b>Developed Using:</b> BootStrap (HTML, CSS, Basic Javascript DOM) <br>
+<b>Developed Using:</b> BootStrap (HTML, CSS) <br>
 <b>Website Link:</b> https://sureshwheels.com/
