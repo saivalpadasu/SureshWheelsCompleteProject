@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@600&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Merienda', cursive;
+    color: white;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 3.5rem;
+    margin-top: -3.5rem;
+}
+
+/*--- Contact Bar --*/
+.contact-bar {
+    background-color: rgb(253, 74, 74);
+    color: rgb(255, 255, 255);
+    height: 24px;
+}
+
+.contact-bar ul {
+    float: right;
+    margin: 0 1rem;
+}
+
+.contact-bar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 562px) {
+    .contact-bar {
+        font-size: 14px;
+        height: 21px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.5rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 522px) {
+    .contact-bar {
+        font-size: 10px;
+        height: 15px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.2rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 372px) {
+    .contact-bar {
+        font-size: 8px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.1rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+
+@media (max-width: 303px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 280px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+
+/*--- Navigation --*/
+.navbar {
+    padding-top: 1.8rem;
+    font-weight: 500;
+    font-size: .9rem;
+    letter-spacing: .0005rem;
+    background: rgb(0, 0, 0, 0.6)!important ;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+.navbar-nav li{
+    padding-right: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e32929 ;
+}
+
+/*-- bknw button --*/
+.btn-bo {
+    font-size: 15px;
+    text-shadow: .1rem .1rem .1rem #ff0000;
+}
+
+.bo-div{
+    padding-top: .2em;
+}
+
+/*-- Tyre Finder Section --*/
+
+.title-tyfd {
+    color: white;
+    padding-top: 5.8rem;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/bookSlot/bckgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: .8rem;
+}
+
+.heading-underline1 {
+    width: 9rem;
+    height: .2rem;
+    background-color: rgba(255, 37, 37, 0.815);
+    margin: .5rem auto 1.5rem;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+   
+.leftside, .rightside {
+    height: 55vh;
+    width: 100%;
+}
+
+.leftside {
+    background: url(../img/tyreFinder/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rightside {
+    background: url(../img/tyreFinder/2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:670px) {
+    .leftside, .rightside {
+        height: 45vh;
+        width: 100%;
+    }
+}
+
+@media (max-width:526px) {
+    .leftside, .rightside {
+        height: 40vh;
+        width: 100%;
+    }
+    .title-tyfd h2 {
+        font-size: 25px;
+    }
+
+    .heading-underline1 {
+        width: 8rem;
+        height: .2rem;
+        background-color: rgba(255, 37, 37, 0.815);
+        margin: .5rem auto 1.5rem;
+    }
+}
+
+@media (max-width:465px) {
+    .leftside, .rightside {
+        height: 35vh;
+        width: 100%;
+    }
+}
+
+@media (max-width:420px) {
+    .leftside, .rightside {
+        height: 30vh;
+        width: 100%;
+    }
+    .title-tyfd h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:390px) {
+    .leftside, .rightside {
+        height: 25vh;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:320px) {
+    .leftside, .rightside {
+        height: 40vh;
+        width: 100%;
+    }
+    .title-tyfd h2 {
+        font-size: 18px;
+    }
+    .heading-underline1 {
+        width: 5rem;
+        height: .2rem;
+        background-color: rgba(255, 37, 37, 0.815);
+        margin: .5rem auto 1.5rem;
+    }
+}
+
+
+
+/*-- Last Section __*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 0 0 .5rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: .6rem 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 0.2rem .5rem 0 0;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: .5rem;
+}
+
+.lstscnd-div{
+    margin: .5rem auto;
+}

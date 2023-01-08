@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@600&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Merienda', cursive;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 3.5rem;
+    margin-top: -3.5rem;
+}
+
+/*--- Contact Bar --*/
+.contact-bar {
+    background-color: rgb(253, 74, 74);
+    color: rgb(255, 255, 255);
+    height: 24px;
+}
+
+.contact-bar ul {
+    float: right;
+    margin: 0 1rem;
+}
+
+.contact-bar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 562px) {
+    .contact-bar {
+        font-size: 14px;
+        height: 21px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.5rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 522px) {
+    .contact-bar {
+        font-size: 10px;
+        height: 15px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.2rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 372px) {
+    .contact-bar {
+        font-size: 8px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.1rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+
+@media (max-width: 303px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 280px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+
+/*--- Navigation --*/
+.navbar {
+    padding-top: 1.8rem;
+    font-weight: 500;
+    font-size: .9rem;
+    letter-spacing: .0005rem;
+    background: rgb(0, 0, 0, 0.6)!important ;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+.navbar-nav li{
+    padding-right: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e32929 ;
+}
+.bo-div{
+    padding-top: .2em;
+}
+
+.btn-bo {
+    font-size: 15px;
+    text-shadow: .1rem .1rem .1rem #ff0000;
+}
+
+
+/*--- Book Online Section--- */
+
+.bknw {
+    position: relative;
+    min-height: 100vh;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/bookSlot/bckgrnd.jpg);
+    background-size: cover;
+}
+
+.bknw .content-bknw {
+    max-width: 800px;
+    text-align: center;
+}
+
+.bknw .content-bknw h3  {
+    color: #ffffff;
+}
+
+.bknw .content-bknw p {
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.container-bknw {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-bknw .contactInfo-bknw {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bknw .contactInfo-bknw .box-bknw {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container-bknw .contactInfo-bknw .box-bknw .icon-bknw {
+    min-width: 70px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+.container-bknw .contactInfo-bknw .box-bknw .text-bknw {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.contactForm-bknw {
+    text-align: center;
+    width: 45%;
+    padding: 40px;
+    background: white;
+}
+
+.contactForm-bknw h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
+
+.btn-di{
+    background-color: rgb(255, 60, 60); ;
+    color: white;
+    border: none;
+    padding: .6rem 1.5rem;
+}
+
+.btn-di:hover {
+    background-color: rgb(252, 87, 87) ;
+    color: white;
+    border: none;
+    padding: .6rem 1.5rem;
+}
+
+.heading-underline {
+    width: 3.5rem;
+    height: .2rem;
+    background-color: rgb(253, 69, 69);
+    margin: 0 auto 2rem;
+}
+
+.no-padding1 [class*=col-] {
+    padding: .5rem;
+}
+
+.row {
+    padding-bottom: 2.8rem;
+}
+
+.brands img {
+    max-width: 100%;
+}
+
+@media (max-width: 991px)
+{
+    .bknw .content-bknw h3  {
+        padding-top: 1rem;
+        font-weight: 500;
+        color: #ffffff;
+    }
+    .bknw {
+        padding: 70px;
+    }
+    .container-bknw {
+        flex-direction: column;
+    }
+    .container-bknw .contactInfo-bknw {
+        margin-bottom: 40px;
+    }
+    .container-bknw .contactInfo-bknw,
+    .contactForm-bknw {
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width: 413px) {
+    .content-bknw p {
+        font-size: 13px;
+    }
+    .box-bknw p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 367px) {
+    .content-bknw p {
+        font-size: 11px;
+    }
+    .box-bknw p {
+        font-size: 10px;
+    }
+    .container-bknw .contactInfo-bknw .box-bknw .icon-bknw {
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 334px) {
+    .content-bknw p {
+        font-size: 9px;
+    }
+    .box-bknw p {
+        font-size: 7px;
+    }
+    .container-bknw .contactInfo-bknw .box-bknw .icon-bknw {
+        min-width: 50px;
+        height: 50px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 405px) {
+
+    .contactForm-bknw h2 {
+        font-size: 16px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .btn-di {
+        text-align: center;
+        font-size: 14px;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 389px) {
+    .btn-di {
+        text-align: center;
+        font-size: 10px;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 354px) {
+
+    .contactForm-bknw h2 {
+        font-size: 14px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .btn-di {
+        text-align: center;
+        font-size: 9px;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 345px) {
+
+    .contactForm-bknw h2 {
+        font-size: 10px;
+        color: #333;
+        font-weight: 500;
+    }
+
+    .btn-di {
+        text-align: center;
+        font-size: 6px;
+        width: 10rem;
+        padding: .6rem .8rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .col-sm-4 {
+        max-width: 50%;
+    }
+
+    .no-padding1 [class*=col-] {
+        padding: 0.25rem;
+    }
+}
+
+@media (max-width: 410px) {
+    .no-padding1 [class*=col-] {
+        padding: 0.2rem;
+    }
+    .row {
+        padding-bottom: 1.2rem;
+    }
+
+    .col-sm-4 {
+        max-width: 100%;
+    }
+}
+
+

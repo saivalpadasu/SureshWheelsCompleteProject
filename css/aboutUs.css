@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@600&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Merienda', cursive;
+}
+
+.offset:before {
+    display: block;
+    content: "";
+    height: 3.5rem;
+    margin-top: -3.5rem;
+}
+/*--- Contact Bar --*/
+.contact-bar {
+    background-color: rgb(253, 74, 74);
+    color: rgb(255, 255, 255);
+    height: 24px;
+}
+
+.contact-bar ul {
+    float: right;
+    margin: 0 1rem;
+}
+
+.contact-bar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+@media (max-width: 562px) {
+    .contact-bar {
+        font-size: 14px;
+        height: 21px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.5rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 522px) {
+    .contact-bar {
+        font-size: 10px;
+        height: 15px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.2rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 3px;
+    }
+}
+
+@media (max-width: 372px) {
+    .contact-bar {
+        font-size: 8px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float: right;
+        margin: 0 0.1rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 302px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 280px) {
+    .contact-bar {
+        font-size: 7.2px;
+        height: 12px;
+    }
+    .contact-bar ul {
+        float:right;
+        margin: 0 0rem;
+    }
+    
+    .contact-bar ul li{
+        display: inline-block;
+        margin: 0 2px;
+    }
+}
+
+/*--- Navigation --*/
+.navbar {
+    padding-top: 1.8rem;
+    font-weight: 500;
+    font-size: .9rem;
+    letter-spacing: .0005rem;
+    background: rgb(0, 0, 0, 0.6)!important ;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+.navbar-nav li{
+    padding-right: .3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e32929 ;
+}
+
+/*-- bknw button --*/
+.btn-bo {
+    font-size: 15px;
+    text-shadow: .1rem .1rem .1rem #ff0000;
+}
+
+.bo-div{
+    padding-top: .2em;
+}
+
+
+/*-- About Us Section */
+.container1-abtus {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/bookSlot/bckgrnd.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    padding-top: 10rem;
+}
+.title-abtus {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading-underline {
+    width: 4rem;
+    height: .2rem;
+    background-color: rgba(255, 37, 37, 0.815);
+    margin: 0 auto 1rem;
+}
+
+.container1-abtus a{
+    color: white;
+}
+
+.container1-abtus svg.svg-inline--fa {
+    font-size: 2.5rem;
+    margin: 0.1rem 1rem 0 0;
+}
+
+.container1-abtus .title-abtus h4 {
+    padding: 6px;
+    line-height: 35px;
+    max-width: 100%;
+}
+
+.container2-abtus { 
+    text-align: center;
+    padding-top: 20px;
+}
+
+.heading-underline1 {
+    width: 10rem;
+    height: .2rem;
+    background-color: rgba(255, 37, 37, 0.815);
+    margin: .7rem auto 1rem;
+}
+
+.row {
+ justify-content: center;
+ align-items: center;
+}
+
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+.leftside {
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+.rightside {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/aboutUs/wheelalignment.jpg);
+}
+
+.leftside1, .rightside1 {
+    height: 50vh;
+    width: 100%;
+    padding-bottom: .5rem;
+}
+
+.rightside1 {
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.leftside1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/aboutUs/wheelbalancing.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media (max-width:761px) {
+    .container1-abtus {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../img/bookSlot/bckgrnd.jpg);
+        text-align: center;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+
+    .container2-abtus {
+        padding-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- Last Section __*/
+footer {
+    background-color: black;
+    color: white;
+    padding: 0 0 .5rem;
+}
+
+footer img {
+    height: 3rem;
+    margin: .6rem 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 0.2rem .5rem 0 0;
+}
+
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: .5rem;
+}
+
+.lstscnd-div{
+    margin: .1rem auto;
+}
